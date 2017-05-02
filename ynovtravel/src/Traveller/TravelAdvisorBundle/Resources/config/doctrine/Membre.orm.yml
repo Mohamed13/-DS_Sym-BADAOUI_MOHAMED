@@ -1,0 +1,11 @@
+Traveller\TravelAdvisorBundle\Entity\Membre:
+    type: entity
+    table: null
+    repositoryClass: Traveller\TravelAdvisorBundle\Repository\MembreRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

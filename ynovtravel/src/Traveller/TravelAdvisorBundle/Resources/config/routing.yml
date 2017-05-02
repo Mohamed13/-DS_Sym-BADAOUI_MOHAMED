@@ -1,0 +1,25 @@
+traveller_travel_advisor_homepage:
+    path:     /
+    defaults: { _controller: TravellerTravelAdvisorBundle:Default:index }
+
+traveller_travel_advisor_travel:
+    path: /voyage
+    defaults: { _controller: TravellerTravelAdvisorBundle:Default:travel }
+
+traveller_travel_advisor_travelname:
+    path: /voyage/{name}
+    defaults: { _controller: TravellerTravelAdvisorBundle:Default:travelname }
+
+traveller_travel_advisor_admin:
+    path: /admin/
+    defaults: { _controller: TravellerTravelAdvisorBundle:Admin:admin }    
+
+
+traveller_travel_advisor_adminredirection:
+    path: /admin/redirection
+    defaults: { _controller: TravellerTravelAdvisorBundle:Admin:adminredirection }
+
+
+traveller_travel_advisor_travelvisiteur:
+    path: /voyage/visiteur
+    defaults: { _controller: TravellerTravelAdvisorBundle:Default:travelvisiteur }
